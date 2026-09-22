@@ -1,6 +1,6 @@
 {
-  "version": "20.48",
-  "notes": "V20.48 更新内容\n- 填入 GitHub 仓库坐标：GITHUB_OWNER 由占位符改为真实用户名 MasterSYChen\n  （注意：GitHub 资料页大字是「显示名」、灰色才是「用户名」；本账号用户名为\n   MasterSYChen，显示名为 MasterChen。MasterChen 是另一个陌生账号，不能填）\n- 在线更新链路由此打通：启动 8 秒静默检查（24h 节流）与右键「检查更新」都会访问\n  https://raw.githubusercontent.com/MasterSYChen/GarudaPet/main/version.json\n- gen_version.py 改为从源码读取用户名/仓库名（单一事实来源），\n  避免生成脚本与 EXE 内的坐标不一致；若源码里仍是占位值会直接报错退出\n- 日志抓取：点「暂停抓取」生成日志文件后，经 FormSubmit 免凭据自动转发到\n  68815968@qq.com（仍然不需要任何授权码）",
-  "url": "https://github.com/MasterSYChen/GarudaPet/releases/download/v20.48/GarudaPetV5.exe",
-  "sha256": "5809e5e6e6b8209b2cda63f6b6562d65f2a9eea4a21acd5d5e4978b36def044d"
+  "version": "20.49",
+  "notes": "V20.49 更新内容\n- 「日志反馈」入口调整：右键菜单不再显示「开始抓取日志」，该功能统一收进「关于」页\n- 关于页按钮由「开始抓取日志」改名为「日志反馈」，并删去原来那段较长的说明文字，\n  界面更清爽\n- 暂停抓取后不再弹出「另存为」保存对话框：日志固定保存到\n  %APPDATA%\\GarudaPet\\log_capture\\ 目录，实际路径会在右下角提示气泡中告知；\n  同时自动经 FormSubmit 免凭据回传作者邮箱（仍然不需要任何授权码）",
+  "url": "https://github.com/MasterSYChen/GarudaPet/releases/download/v20.49/GarudaPetV5.exe",
+  "sha256": "f2a418d7179435df43336b9adfeb2459d8d62a3064ff4f7921bbbd75d54720a5"
 }
