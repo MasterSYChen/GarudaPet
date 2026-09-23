@@ -1,6 +1,6 @@
 {
-  "version": "20.49",
-  "notes": "V20.49 更新内容\n- 「日志反馈」入口调整：右键菜单不再显示「开始抓取日志」，该功能统一收进「关于」页\n- 关于页按钮由「开始抓取日志」改名为「日志反馈」，并删去原来那段较长的说明文字，\n  界面更清爽\n- 暂停抓取后不再弹出「另存为」保存对话框：日志固定保存到\n  %APPDATA%\\GarudaPet\\log_capture\\ 目录，实际路径会在右下角提示气泡中告知；\n  同时自动经 FormSubmit 免凭据回传作者邮箱（仍然不需要任何授权码）",
-  "url": "https://github.com/MasterSYChen/GarudaPet/releases/download/v20.49/GarudaPetV5.exe",
-  "sha256": "f2a418d7179435df43336b9adfeb2459d8d62a3064ff4f7921bbbd75d54720a5"
+  "version": "20.50",
+  "notes": "V20.50 更新内容\n· 修好「点更新后界面卡住」：更新包改为后台下载，右下角新增进度卡片（百分比 / 体积 / 速度 / 预计剩余时间）\n· 更新器重做：覆盖前自动等文件解锁、失败自动重试并回滚旧版；每一步都写日志，事后可查\n· 新增更新结果自检：新版启动后自己核对 SHA256 指纹，成功报喜、失败会提醒并给出下载入口\n· 新增单实例保护，避免两个桌宠同时占用同一个文件导致更新失败\n· 修复「提示已打开下载页、实际没打开」的问题\n· 修复 64 位系统上会刷屏错误日志的一处小毛病",
+  "url": "https://github.com/MasterSYChen/GarudaPet/releases/download/v20.50/GarudaPetV5.exe",
+  "sha256": "3b82a06686e088a810f48b918891efedefcf64b45aff1a08a75d556d08710264"
 }
